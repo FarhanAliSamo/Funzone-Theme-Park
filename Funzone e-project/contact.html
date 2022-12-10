@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Funzone Theme Park</title>
+  <link rel="stylesheet" href="./Css/bootstrap.min.css">
+  <link rel="stylesheet" href="./Css/contact.css">
+  <link rel="stylesheet" href="./Css/nav-them.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+</head>
+
+<body>
+  <!-- //////////////////Navbar Code Start/////////////// -->
+  <nav>
+    <div class="logo"><a href="./index.html"><img src="./Images/logo.png" alt=""></a></div>
+
+    <div>
+      <ul id="navUl" class="navul">
+        <li><a href="./index.html">Home</a></li>
+
+        <li><a href="./Park-information.html">Park Information</a>
+          <ul>
+            <li><a href="./Park-information.html">Park Map</a></li>
+            <li><a href="./rides-Thrill.html">Rides</a></li>
+            <li><a href="./aboutus.html">About US</a></li>
+          </ul>
+        </li>
+
+        <li><a href="./Experience.html">Experience</a>
+          <ul>
+            <li><a href="./rides-kids.html">Kids Rides</a></li>
+            <li><a href="./rides-family.html">Family Rides</a></li>
+            <li><a href="./rides-Thrill.html">Thrill Rides</a></li>
+            <li><a href="./whatsup.html">Events</a></li>
+          </ul>
+        </li>
+
+        <li><a>Other</a>
+          <ul>
+            <li><a href="./buisness-opportunities.html">Buissness Opportunities</a></li>
+            <li><a href="characters.html">Park Characters</a></li>
+          </ul>
+        </li>
+        <li><a href="./leasure-dining.html">Lesiure & Dining </a></li>
+        <li><a href="./whatsup.html">Whats Up</a></li>
+        <li><a class="active" href="./contact.html">Contact Us</a></li>
+        <i id="closeMenu" class="fa-solid fa-xmark cross"></i>
+      </ul>
+    </div>
+
+    <div id="startMenu" class="humburger"><i class="fa-solid fa-bars"></i></div>
+  </nav>
+  <!-- //////////////////Navbar Code End/////////////// -->
+
+
+  <div class="container-fluid">
+    <div class="row px-5 m-0">
+
+
+      <div class="chat col-md-6 mt-5">
+        <h1 class="text-center">WANNA CHAT ?</h1>
+        <h4 class="text-center  mb-5 ">wanna chat hear!</h4>
+
+
+        <form action="">
+          <div class="m-0 row">
+            <div class=" parent  ">
+              <input type="text" required id="namee" onkeyup="validateName()">
+              <label>Name</label>
+              <span class="val" id="valName"></span>
+            </div>
+
+            <div class=" parent  ">
+              <input type="email" required id="email" onkeyup="validateEmail()">
+              <label>Enter Your Email</label>
+              <span class="val" id="valEmail"></span>
+            </div>
+
+            <div class=" parent  ">
+              <input type="tel" id="number" required onkeyup="validateNumber()">
+              <label>Number</label>
+              <span class="val" id="valNumber"></span>
+            </div>
+
+            <div class=" parent ">
+              <input type="text" required id="website">
+              <label>Your Website (optional) </label>
+              <span class="val" id="valWebsite"></span>
+            </div>
+
+            <div class=" parent ">
+              <input type="subject" required id="subject" onkeyup="validateSubject()">
+              <label>Subject</label>
+              <span class="val" id="valSubject"></span>
+            </div>
+
+            <div class=" parent">
+              <input type="textarea" id="descritption" required onkeyup="validateDescription()">
+              <label>Tell Us What's On Your Mind.</label>
+              <span class="val" id="valDescription"></span>
+            </div>
+
+            <div class=" col-12">
+              <input type="Submit" class="submit mt-5" id="submit" onclick=" return validateForm()">
+              <p class="mt-3 text-danger" id="valSubmit"></p>
+            </div>
+          </div>
+        </form>
+        <!---form end-->
+      </div>
+
+
+
+      <div class="our-address mt-5 col-md-6">
+        <h1 class="display-4 ">Our Adress</h1>
+        <p><i class="fa-solid fa-map-location"></i> Aptech Metro Star Gate, Karachi.</p>
+        <a href="mailto: farhanalisamo888@gmail.com"><i class="fa-solid fa-envelope"></i> Contact Us</a>
+        <p><i class="fa-solid fa-phone-volume"></i> (+92) 34-92-024-363</p>
+
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.314134948184!2d67.14963621526658!3d24.88726428404127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb339999415e0c3%3A0x36742eee0fd9c291!2sAptech%20Metro%20Star%20Gate!5e0!3m2!1sen!2s!4v1667301381505!5m2!1sen!2s"
+          width="90%" height="320px" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+    </div>
+  </div>
+  <!---container end-->
+
+  <!-- footer -->
+
+  <footer class="footer-sec">
+    <div class="main">
+
+      <div class="logoo row">
+        <div class="footer-header">
+          <img src="./Images/logo.png" class="Farhan" alt="">
+        </div>
+        <div class="logoo-des">
+          <p>FunZone Theme Park is a amusement park that bases its structures and attractions around a central theme,
+            often featuring multiple areas with different themes.</p>
+
+          <a href="./aboutus.html" class="btn-know">Know More</a>
+        </div>
+      </div>
+
+
+
+      <div class="office row">
+        <div class="footer-header">
+          <h3>Thing To Do</h3>
+        </div>
+        <div class="link-des">
+          <a href="./rides-family.html" class="footer-links">Family Rides</a>
+          <a href="./rides-kids.html" class="footer-links">Kids Rides</a>
+          <a href="./rides-Thrill.html" class="footer-links">Thrill Rides</a>
+          <a href="./leasure-dining.html" class="footer-links">Leasure-Dining</a>
+          <a href="./buisness-opportunities.html" class="footer-links">Buissness Opportunities</a>
+        </div>
+      </div>
+
+
+      <div class="link row">
+        <div class="footer-header">
+          <h3>Links</h3>
+        </div>
+
+        <div class="link-des">
+          <a href="./index.html" class="footer-links">Home</a>
+          <a href="./aboutus.html" class="footer-links">About</a>
+          <a href="./contact.html" class="footer-links">Contact Us</a>
+          <a href="./characters.html" class="footer-links">Park Characters</a>
+          <a href="./Experience.html" class="footer-links">Experience</a>
+        </div>
+
+      </div>
+
+
+      <div class="newsletter row">
+        <div class="footer-header">
+          <h3>Social Links</h3>
+        </div>
+
+        <a class="emailus-footer" href="mailto: farhanalisamo888@gmail.com"><i class="fa-solid fa-envelope"></i>Email
+          Us</a>
+
+        <div class="icons">
+          <a href="#"><i class="social-icon fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="social-icon fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="social-icon fa-brands fa-linkedin "></i></a>
+          <a href="#"><i class="social-icon fa-brands fa-github"></i></a>
+
+        </div>
+      </div>
+    </div>
+
+
+    </div>
+    <div class="copyright">
+      <hr>
+
+      <p>© Copyright 2022 FunZone®.</p>
+    </div>
+  </footer>
+
+  <!-- footer end -->
+</body>
+<script src="./JS/contact.js"></script>
+<script src="/JS/navbar.js"></script>
+
+</html>

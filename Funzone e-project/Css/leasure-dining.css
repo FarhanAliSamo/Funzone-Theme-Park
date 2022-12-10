@@ -1,0 +1,62 @@
+img{
+    width: 100%;
+}
+   
+.bannerimage2 img{
+    box-shadow: black 0px 5px 15px;
+    border-radius: 5px;
+    height: 300px;
+    align-items: center;
+}
+
+.row{
+    align-items: center;
+    justify-content: center;
+}
+.brand-card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 0px;
+
+}
+.brand-card img{
+    width: 100% !important;
+    height: 200px !important;
+}
+button{
+    border-radius: 5px !important;
+    padding: 10px;
+    color: white;
+    background-color: #0554d3;
+    border: #0554d3;
+    transition: all 0.3s; 
+}
+button:hover{
+    background-color: #002F79;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gallery img{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 175px;
+    width:100% ;
+    border:  8px solid #0973b1
+
+}
+.hr{
+    background-color: #00A3FF;
+    height: 4px;
+    border-radius: 5px;
+}
+/* .gallery img{
+    width: 100%;
+    height: 200px;
+} */
